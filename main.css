@@ -3,5 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    background-color: aqua;
+    
 }
+
+div {
+ width: 3rem;
+ height: 3rem;   
+ outline: 1px solid;
+}
+
