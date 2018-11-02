@@ -7,11 +7,21 @@
 }
 
 .cell {
- width: 3rem;
- height: 3rem;   
- outline: 1px solid;
+    border-radius: 75%;
+    width: 3rem;
+    height: 3rem;   
+    outline: 1px solid;
+   
 }
 
 .reset {
-    
+    font-size: 1rem;
+    font: 200;
+    font-family: fantasy, sans-serif, Helvetica;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+

@@ -19,7 +19,7 @@ function changeColor(event){
 
 function reset(event){
     cells.forEach(function resetCell(cell) {
-    element.style.backgroundColor = "";
+    cell.style.backgroundColor = "";
     });
 }
 
