@@ -1,15 +1,15 @@
 // variables
 const cells = document.querySelectorAll(".cell");
-const resetBtn = document.querySelector(".reset");
+let resetBtn = document.querySelector(".reset");
+// const controls = document.querySelector('.controls');
+// let resetBtn = controls.querySelector('button');
 
 // events
 cells.forEach(function attachOnClick(cell){
   cell.addEventListener("click",changeColor);
 });
 
-
 resetBtn.addEventListener("click", reset);
-
 
 // functions
 function changeColor(event){
@@ -18,7 +18,9 @@ function changeColor(event){
 }
 
 function reset(event){
-    cells.forEach(function resetCell(cell))
-    
+    cells.forEach(function resetCell(cell) {
+    element.style.backgroundColor = "";
+    });
 }
+
 // kick it off
