@@ -15,7 +15,7 @@ resetBtn.addEventListener('click', reset);
 // functions
 function changeColor(event){
     const element = event.target;
-    element.style.backgroundColor = "black";
+    element.style.backgroundColor = "white";
 }
 
 function reset(event){
