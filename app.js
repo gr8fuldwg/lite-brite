@@ -1,6 +1,6 @@
 // variables
 const cells = document.querySelectorAll(".cell");
-let resetBtn = document.querySelector(".reset");
+const resetBtn = document.querySelector(".reset");
 // const controls = document.querySelector('.controls');
 // let resetBtn = controls.querySelector('button');
 
