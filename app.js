@@ -9,7 +9,8 @@ cells.forEach(function attachOnClick(cell){
   cell.addEventListener("click",changeColor);
 });
 
-resetBtn.addEventListener("click", reset);
+resetBtn.addEventListener('click', reset);
+
 
 // functions
 function changeColor(event){
