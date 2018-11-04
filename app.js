@@ -1,6 +1,8 @@
 // variables
 const cells = document.querySelectorAll(".cell");
+
 const resetBtn = document.querySelector(".reset");
+
 const red = document.querySelector(".red")
 const orange = document.querySelector("orange")
 const yellow = document.querySelector(".yellow")
@@ -30,7 +32,7 @@ white.addEventListener('click', whiteClick);
 // functions
 function changeColor(event){
     const element = event.target;
-    element.style.backgroundColor = "white";
+    element.style.backgroundColor = color;
 }
 
 function reset(event){
@@ -38,9 +40,28 @@ function reset(event){
     cell.style.backgroundColor = "";
     });
 }
-
 function redClick(event){
-    attachOnClick = "red"
+    color = "red"
 }
-
+function orangeClick(event){
+    color = "orange"
+}
+function yellowClick(event){
+    color = "yellow"
+}
+function greenClick(event){
+    color = "green"
+}
+function blueClick(event){
+    color = "blue"
+}
+function purpleClick(event){
+    color = "purple"
+}
+function blackClick(event){
+    color = "black"
+}
+function whiteClick(event){
+    color = "white"
+}
 // kick it off
