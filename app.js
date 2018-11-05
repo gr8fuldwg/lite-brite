@@ -4,13 +4,14 @@ const cells = document.querySelectorAll(".cell");
 const resetBtn = document.querySelector(".reset");
 
 const red = document.querySelector(".red")
-const orange = document.querySelector("orange")
+const orange = document.querySelector(".orange")
 const yellow = document.querySelector(".yellow")
 const green = document.querySelector(".green")
 const blue = document.querySelector(".blue")
 const purple = document.querySelector(".purple")
 const black = document.querySelector(".black")
 const white = document.querySelector(".white")
+
 
 // events
 cells.forEach(function attachOnClick(cell){
@@ -30,38 +31,38 @@ white.addEventListener('click', whiteClick);
 
 
 // functions
-function changeColor(event){
+function changeColor(event) {
     const element = event.target;
     element.style.backgroundColor = color;
 }
 
-function reset(event){
+function reset(event) {
     cells.forEach(function resetCell(cell){
     cell.style.backgroundColor = "";
     });
 }
-function redClick(event){
+function redClick(event) {
     color = "red"
 }
-function orangeClick(event){
+function orangeClick(event) {
     color = "orange"
 }
-function yellowClick(event){
+function yellowClick(event) {
     color = "yellow"
 }
-function greenClick(event){
+function greenClick(event) {
     color = "green"
 }
-function blueClick(event){
+function blueClick(event) {
     color = "blue"
 }
-function purpleClick(event){
+function purpleClick(event) {
     color = "purple"
 }
-function blackClick(event){
+function blackClick(event) {
     color = "black"
 }
-function whiteClick(event){
+function whiteClick(event) {
     color = "white"
 }
 // kick it off
