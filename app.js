@@ -11,7 +11,7 @@ const blue = document.querySelector(".blue")
 const purple = document.querySelector(".purple")
 const black = document.querySelector(".black")
 const white = document.querySelector(".white")
-
+const brown = document.querySelector(".brown")
 
 // events
 cells.forEach(function attachOnClick(cell){
@@ -28,7 +28,7 @@ blue.addEventListener('click', blueClick);
 purple.addEventListener('click', purpleClick);
 black.addEventListener('click', blackClick);
 white.addEventListener('click', whiteClick);
-
+brown.addEventListener('click',brownClick);
 
 // functions
 function changeColor(event) {
@@ -64,5 +64,8 @@ function blackClick(event) {
 }
 function whiteClick(event) {
     color = "white"
+}
+function brownClick(event) {
+    color = "brown"
 }
 // kick it off
