@@ -16,14 +16,33 @@
 }
 
 .reset {
-    font-size: 1rem;
-    font: 200;
+    font-size: 2rem;
+    
     font-family: fantasy, sans-serif, Helvetica;
+    background-color: darkgray;
+    color: grey;
+    border-radius: 25px; 
+}
+
+.color-select {
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 2rem;
+    font-family: Helvetica;
 }
 
 .center {
+    justify-content: center;
     display: flex;
-    justify-content: left;
+   
+    color: yellow;
+}
+
+.lite-brite {
+    font-size: 4rem;
+letter-spacing: .5rem;
+font-family: sans-serif;
 }
 
 .red {
@@ -38,7 +57,7 @@
 
 .yellow {
     background-color: yellow;
-    color: white;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
