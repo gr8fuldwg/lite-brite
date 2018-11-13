@@ -40,9 +40,9 @@
     display: flex;
     justify-content: left;
     color: white;
-    font-size: 2rem;
-    font-family: Helvetica;
-    padding-bottom: 
+    font-size: 3rem;
+    font-family: sans-serif;
+    padding-bottom: 2;
 }
 
 .center {
@@ -61,6 +61,7 @@ font-family: sans-serif;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .orange {
     background-color: orange;
     color: white;
@@ -99,6 +100,51 @@ font-family: sans-serif;
 .brown {
     background-color: brown;
     color: white;
+}
+
+.red:hover {
+    color:red;
+    font-weight: bolder;
+}
+
+.orange:hover {
+    color:orange;
+    font-weight: bolder;
+}
+
+.yellow:hover {
+    color:yellow;
+    font-weight: bolder;
+}
+
+.green:hover {
+    color:green;
+    font-weight: bolder;
+}
+
+.blue:hover {
+    color:blue;
+    font-weight: bolder;
+}
+
+.purple:hover {
+    color:purple;
+    font-weight: bolder;
+}
+
+.brown:hover {
+    color:brown;
+    font-weight: bolder;
+}
+
+.black:hover {
+    color:black;
+    font-weight: bolder;
+}
+
+.white:hover {
+    color:white;
+    font-weight: bolder;
 }
 
 .footer {
