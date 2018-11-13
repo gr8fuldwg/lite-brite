@@ -23,6 +23,50 @@
 
 .center {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
+.red {
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.orange {
+    background-color: orange;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
